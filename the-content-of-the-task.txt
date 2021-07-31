@@ -1,0 +1,52 @@
+Podaj przypadki testowe, które umożliwią pokrycie instrukcji i decyzji poniższego kodu:
+
+
+Przykład 1
+
+int wiek
+
+if(wiek < 18) {
+	printf("Nie sprzedam Ci piwa")
+}
+if(wiek >= 18) {
+	printf("Możesz kupić alkohol"
+}
+
+Przykład 2
+
+int x;
+
+while (x<5) {
+	printf("5 jest większe od x")
+	x = x + 1
+}
+printf("x jest większe od 5")
+
+
+Przykład 3
+
+int a,b,c,d
+
+
+if(a==0) {
+	printf("a jest równe 0")
+	if(b>0) {
+		printf("b jest większe od zera")
+	} else {
+		printf("b jest mniejsze od zera")	
+	}
+} else {
+	printf("a jest różne od 0")
+}
+if(c==0) {
+	printf("c jest równe 0")
+	if(d>0) {
+		printf("d jest większe od zera")
+	} else {
+		printf("d jest mniejsze od zera")	
+	}
+} else {
+	printf("c jest różne od 0")
+}
+
+
